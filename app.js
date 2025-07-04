@@ -35,12 +35,3 @@ mongoose.connect(process.env.MONGO_URL).then(()=> console.log("DB Connected"));
 
 app.listen(PORT, ()=> console.log(`Server started successfully at PORT : ${PORT}`));
 
-
-
-
-
-
-
-
-
-//not able to find blog with blog id
