@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 const blogRoute = require('./routes/blog');
 const staticRoute = require('./routes/staticRouter');
 require('dotenv').config();
-
+ 
 //port
 const PORT = process.env.PORT || 8000;
 
